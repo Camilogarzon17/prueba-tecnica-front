@@ -1,0 +1,129 @@
+body {
+  background: #456;
+  font-family: "Open Sans", sans-serif;
+}
+
+.formSearch {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formSearch-header,
+.search p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.formSearch-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #28d;
+}
+
+.formSearch-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.formSearch-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+.formSearch p {
+  padding: 12px;
+}
+
+.formSearch input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  border-color: #ebebeb;
+}
+
+.formSearch select {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  border-color: #ebebeb;
+}
+
+.formSearch button[type="submit"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.formSearch button[type="submit"]:hover {
+  background: #17c;
+}
+
+.formSearch button[type="submit"]:focus {
+  border-color: #05a;
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+button[type="submit"]:enabled {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.submit-btn svg {
+  margin-right: 8px;
+}
+
+
+.align-right {
+  display: flex; /* Activamos el modelo de Flexbox */
+  justify-content: flex-end; /* Alinea el contenido al final (derecha si es en fila) */
+}

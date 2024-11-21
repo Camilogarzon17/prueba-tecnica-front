@@ -1,0 +1,53 @@
+body {
+  background: #456;
+  font-family: "Open Sans", sans-serif;
+}
+
+.info {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+.info-header {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.info-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.info-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+.goBack-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.goBack-btn svg {
+  margin-right: 8px;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
